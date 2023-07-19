@@ -101,3 +101,22 @@ h2
     transform: rotateY(180deg);
 
 }
+
+/* Estilos para dispositivos com largura de tela maior que 600 pixels */
+@media (min-width: 600px) {
+    .card {
+      width: 150px;
+      height: 150px;
+      font-size: 24px;
+    }
+  }
+  
+  /* Estilos para dispositivos com largura de tela menor ou igual a 600 pixels */
+  @media (max-width: 600px) {
+    .card {
+      width: 100px;
+      height: 100px;
+      font-size: 18px;
+    }
+  }
+  
